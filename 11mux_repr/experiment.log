@@ -1,0 +1,1410 @@
+INFO: Namespace(experiment_name='37594', mux_num_addr_bits=3, xcs_seed=100, xcs_pop_size=800, xcs_beta=0.2, xcs_alpha=0.1, xcs_epsilon_nought=0.1, xcs_nu=5.0, xcs_theta_ga=25, xcs_chi=0.8, xcs_tau=0.5, xcs_upsilon=0.5, xcs_mu=0.05, xcs_theta_del=25, xcs_delta=0.1, xcs_theta_sub=25, xcs_p_hash=0.33, xcs_pred_i=0.01, xcs_epsilon_i=0.01, xcs_fitness_i=0.01, xcs_p_exp=0.5, xcs_do_ga_subsumption=True, xcs_do_as_subsumption=False, monitor_steps_per_tick=100, monitor_num_ticks=500)
+INFO: {'seed': 100, 'N': 800, 'beta': 0.2, 'alpha': 0.1, 'epsilon_nought': 0.1, 'nu': 5.0, 'theta_ga': 25, 'chi': 0.8, 'tau': 0.5, 'upsilon': 0.5, 'mu': 0.05, 'theta_del': 25, 'delta': 0.1, 'theta_sub': 25, 'p_hash': 0.33, 'pred_I': 0.01, 'epsilon_I': 0.01, 'fitness_I': 0.01, 'p_exp': 0.5, 'do_ga_subsumption': True, 'do_as_subsumption': False}
+INFO: Training for 100 * 500 = 50000 steps
+INFO: 
+After 100 steps
+INFO: Num macros: 131
+INFO: Num micros: 140
+INFO: Micro:macro ratio: 1.0687
+INFO: Min error: 0.0008333333333333333
+INFO: Mean error: 285.5548137712381
+INFO: Median error: 0.01
+INFO: Max error: 999.995
+INFO: Min numerosity: 1
+INFO: Mean numerosity: 1.0687022900763359
+INFO: Median numerosity: 1.0
+INFO: Max numerosity: 3
+INFO: Min generality: 0
+INFO: Mean generality: 3.6946564885496183
+INFO: Median generality: 4.0
+INFO: Max generality: 9
+INFO: Pop ops history: {'covering': 124, 'absorption': 9, 'insertion': 7, 'deletion': 0, 'ga_subsumption': 0, 'as_subsumption': 0}
+INFO: Exploit perf: not enough data
+INFO: 
+After 200 steps
+INFO: Num macros: 200
+INFO: Num micros: 239
+INFO: Micro:macro ratio: 1.1950
+INFO: Min error: 0.0
+INFO: Mean error: 302.8976495328327
+INFO: Median error: 0.01
+INFO: Max error: 999.995
+INFO: Min numerosity: 1
+INFO: Mean numerosity: 1.195
+INFO: Median numerosity: 1.0
+INFO: Max numerosity: 5
+INFO: Min generality: 0
+INFO: Mean generality: 4.165
+INFO: Median generality: 4.0
+INFO: Max generality: 10
+INFO: Pop ops history: {'covering': 165, 'absorption': 39, 'insertion': 35, 'deletion': 0, 'ga_subsumption': 0, 'as_subsumption': 0}
+INFO: Exploit perf: not enough data
+INFO: 
+After 300 steps
+INFO: Num macros: 255
+INFO: Num micros: 313
+INFO: Micro:macro ratio: 1.2275
+INFO: Min error: 0.0
+INFO: Mean error: 335.73973688158577
+INFO: Median error: 200.00065536
+INFO: Max error: 999.995
+INFO: Min numerosity: 1
+INFO: Mean numerosity: 1.227450980392157
+INFO: Median numerosity: 1.0
+INFO: Max numerosity: 8
+INFO: Min generality: 0
+INFO: Mean generality: 4.627450980392157
+INFO: Median generality: 4.0
+INFO: Max generality: 11
+INFO: Pop ops history: {'covering': 177, 'absorption': 58, 'insertion': 78, 'deletion': 0, 'ga_subsumption': 0, 'as_subsumption': 0}
+INFO: Exploit perf: 0.51
+INFO: 
+After 400 steps
+INFO: Num macros: 302
+INFO: Num micros: 379
+INFO: Micro:macro ratio: 1.2550
+INFO: Min error: 0.0
+INFO: Mean error: 358.05325995447623
+INFO: Median error: 354.3880071893333
+INFO: Max error: 1000.0
+INFO: Min numerosity: 1
+INFO: Mean numerosity: 1.2549668874172186
+INFO: Median numerosity: 1.0
+INFO: Max numerosity: 9
+INFO: Min generality: 0
+INFO: Mean generality: 4.900662251655629
+INFO: Median generality: 5.0
+INFO: Max generality: 11
+INFO: Pop ops history: {'covering': 177, 'absorption': 77, 'insertion': 125, 'deletion': 0, 'ga_subsumption': 0, 'as_subsumption': 0}
+INFO: Exploit perf: 0.6
+INFO: 
+After 500 steps
+INFO: Num macros: 337
+INFO: Num micros: 436
+INFO: Micro:macro ratio: 1.2938
+INFO: Min error: 0.0
+INFO: Mean error: 371.45183752305314
+INFO: Median error: 409.920268435456
+INFO: Max error: 1000.0
+INFO: Min numerosity: 1
+INFO: Mean numerosity: 1.2937685459940653
+INFO: Median numerosity: 1.0
+INFO: Max numerosity: 10
+INFO: Min generality: 0
+INFO: Mean generality: 5.077151335311573
+INFO: Median generality: 5.0
+INFO: Max generality: 11
+INFO: Pop ops history: {'covering': 178, 'absorption': 99, 'insertion': 159, 'deletion': 0, 'ga_subsumption': 0, 'as_subsumption': 0}
+INFO: Exploit perf: 0.71
+INFO: 
+After 600 steps
+INFO: Num macros: 371
+INFO: Num micros: 505
+INFO: Micro:macro ratio: 1.3612
+INFO: Min error: 0.0
+INFO: Mean error: 359.73487723136736
+INFO: Median error: 387.7546666666666
+INFO: Max error: 1000.0
+INFO: Min numerosity: 1
+INFO: Mean numerosity: 1.3611859838274933
+INFO: Median numerosity: 1.0
+INFO: Max numerosity: 11
+INFO: Min generality: 0
+INFO: Mean generality: 5.153638814016173
+INFO: Median generality: 5.0
+INFO: Max generality: 11
+INFO: Pop ops history: {'covering': 179, 'absorption': 134, 'insertion': 192, 'deletion': 0, 'ga_subsumption': 0, 'as_subsumption': 0}
+INFO: Exploit perf: 0.78
+INFO: 
+After 700 steps
+INFO: Num macros: 405
+INFO: Num micros: 559
+INFO: Micro:macro ratio: 1.3802
+INFO: Min error: 0.0
+INFO: Mean error: 369.95962779121714
+INFO: Median error: 416.6666666666667
+INFO: Max error: 1000.0
+INFO: Min numerosity: 1
+INFO: Mean numerosity: 1.3802469135802469
+INFO: Median numerosity: 1.0
+INFO: Max numerosity: 12
+INFO: Min generality: 0
+INFO: Mean generality: 5.348148148148148
+INFO: Median generality: 5.0
+INFO: Max generality: 11
+INFO: Pop ops history: {'covering': 179, 'absorption': 154, 'insertion': 226, 'deletion': 0, 'ga_subsumption': 0, 'as_subsumption': 0}
+INFO: Exploit perf: 0.77
+INFO: 
+After 800 steps
+INFO: Num macros: 453
+INFO: Num micros: 625
+INFO: Micro:macro ratio: 1.3797
+INFO: Min error: 0.0
+INFO: Mean error: 370.9801678876913
+INFO: Median error: 402.100063131326
+INFO: Max error: 1000.0
+INFO: Min numerosity: 1
+INFO: Mean numerosity: 1.379690949227373
+INFO: Median numerosity: 1.0
+INFO: Max numerosity: 12
+INFO: Min generality: 0
+INFO: Mean generality: 5.474613686534217
+INFO: Median generality: 5.0
+INFO: Max generality: 11
+INFO: Pop ops history: {'covering': 179, 'absorption': 172, 'insertion': 274, 'deletion': 0, 'ga_subsumption': 0, 'as_subsumption': 0}
+INFO: Exploit perf: 0.68
+INFO: 
+After 900 steps
+INFO: Num macros: 489
+INFO: Num micros: 681
+INFO: Micro:macro ratio: 1.3926
+INFO: Min error: 0.0
+INFO: Mean error: 381.83145816680104
+INFO: Median error: 433.3353333333333
+INFO: Max error: 1000.0
+INFO: Min numerosity: 1
+INFO: Mean numerosity: 1.392638036809816
+INFO: Median numerosity: 1.0
+INFO: Max numerosity: 12
+INFO: Min generality: 0
+INFO: Mean generality: 5.576687116564417
+INFO: Median generality: 5.0
+INFO: Max generality: 11
+INFO: Pop ops history: {'covering': 179, 'absorption': 192, 'insertion': 310, 'deletion': 0, 'ga_subsumption': 0, 'as_subsumption': 0}
+INFO: Exploit perf: 0.72
+INFO: 
+After 1000 steps
+INFO: Num macros: 536
+INFO: Num micros: 753
+INFO: Micro:macro ratio: 1.4049
+INFO: Min error: 0.0
+INFO: Mean error: 369.6774852243426
+INFO: Median error: 422.11015008330276
+INFO: Max error: 1000.0
+INFO: Min numerosity: 1
+INFO: Mean numerosity: 1.4048507462686568
+INFO: Median numerosity: 1.0
+INFO: Max numerosity: 13
+INFO: Min generality: 0
+INFO: Mean generality: 5.677238805970149
+INFO: Median generality: 6.0
+INFO: Max generality: 11
+INFO: Pop ops history: {'covering': 179, 'absorption': 217, 'insertion': 357, 'deletion': 0, 'ga_subsumption': 0, 'as_subsumption': 0}
+INFO: Exploit perf: 0.73
+INFO: 
+After 1100 steps
+INFO: Num macros: 576
+INFO: Num micros: 800
+INFO: Micro:macro ratio: 1.3889
+INFO: Min error: 0.0
+INFO: Mean error: 376.9016601947757
+INFO: Median error: 441.24043762904796
+INFO: Max error: 1000.0
+INFO: Min numerosity: 1
+INFO: Mean numerosity: 1.3888888888888888
+INFO: Median numerosity: 1.0
+INFO: Max numerosity: 12
+INFO: Min generality: 0
+INFO: Mean generality: 5.715277777777778
+INFO: Median generality: 6.0
+INFO: Max generality: 11
+INFO: Pop ops history: {'covering': 179, 'absorption': 237, 'insertion': 407, 'deletion': 23, 'ga_subsumption': 0, 'as_subsumption': 0}
+INFO: Exploit perf: 0.7
+INFO: 
+After 1200 steps
+INFO: Num macros: 575
+INFO: Num micros: 800
+INFO: Micro:macro ratio: 1.3913
+INFO: Min error: 0.0
+INFO: Mean error: 364.84794045538393
+INFO: Median error: 430.39897600000006
+INFO: Max error: 1000.0
+INFO: Min numerosity: 1
+INFO: Mean numerosity: 1.391304347826087
+INFO: Median numerosity: 1.0
+INFO: Max numerosity: 10
+INFO: Min generality: 0
+INFO: Mean generality: 5.667826086956522
+INFO: Median generality: 6.0
+INFO: Max generality: 11
+INFO: Pop ops history: {'covering': 179, 'absorption': 262, 'insertion': 446, 'deletion': 87, 'ga_subsumption': 0, 'as_subsumption': 0}
+INFO: Exploit perf: 0.72
+INFO: 
+After 1300 steps
+INFO: Num macros: 586
+INFO: Num micros: 800
+INFO: Micro:macro ratio: 1.3652
+INFO: Min error: 0.0
+INFO: Mean error: 375.17124225247403
+INFO: Median error: 438.12527026709245
+INFO: Max error: 1000.0
+INFO: Min numerosity: 1
+INFO: Mean numerosity: 1.3651877133105803
+INFO: Median numerosity: 1.0
+INFO: Max numerosity: 10
+INFO: Min generality: 0
+INFO: Mean generality: 5.694539249146757
+INFO: Median generality: 6.0
+INFO: Max generality: 11
+INFO: Pop ops history: {'covering': 179, 'absorption': 292, 'insertion': 496, 'deletion': 167, 'ga_subsumption': 0, 'as_subsumption': 0}
+INFO: Exploit perf: 0.72
+INFO: 
+After 1400 steps
+INFO: Num macros: 593
+INFO: Num micros: 800
+INFO: Micro:macro ratio: 1.3491
+INFO: Min error: 0.0
+INFO: Mean error: 373.6817612111273
+INFO: Median error: 451.5367087854933
+INFO: Max error: 1000.0
+INFO: Min numerosity: 1
+INFO: Mean numerosity: 1.349072512647555
+INFO: Median numerosity: 1.0
+INFO: Max numerosity: 7
+INFO: Min generality: 0
+INFO: Mean generality: 5.640809443507589
+INFO: Median generality: 6.0
+INFO: Max generality: 11
+INFO: Pop ops history: {'covering': 179, 'absorption': 318, 'insertion': 544, 'deletion': 241, 'ga_subsumption': 0, 'as_subsumption': 0}
+INFO: Exploit perf: 0.68
+INFO: 
+After 1500 steps
+INFO: Num macros: 587
+INFO: Num micros: 800
+INFO: Micro:macro ratio: 1.3629
+INFO: Min error: 0.0
+INFO: Mean error: 371.58189949597215
+INFO: Median error: 444.3416745961422
+INFO: Max error: 1000.0
+INFO: Min numerosity: 1
+INFO: Mean numerosity: 1.362862010221465
+INFO: Median numerosity: 1.0
+INFO: Max numerosity: 6
+INFO: Min generality: 0
+INFO: Mean generality: 5.5945485519591145
+INFO: Median generality: 6.0
+INFO: Max generality: 11
+INFO: Pop ops history: {'covering': 179, 'absorption': 350, 'insertion': 584, 'deletion': 313, 'ga_subsumption': 0, 'as_subsumption': 0}
+INFO: Exploit perf: 0.73
+INFO: 
+After 1600 steps
+INFO: Num macros: 588
+INFO: Num micros: 800
+INFO: Micro:macro ratio: 1.3605
+INFO: Min error: 0.0
+INFO: Mean error: 353.85605484491185
+INFO: Median error: 413.1961239548376
+INFO: Max error: 1000.0
+INFO: Min numerosity: 1
+INFO: Mean numerosity: 1.3605442176870748
+INFO: Median numerosity: 1.0
+INFO: Max numerosity: 8
+INFO: Min generality: 0
+INFO: Mean generality: 5.58843537414966
+INFO: Median generality: 6.0
+INFO: Max generality: 11
+INFO: Pop ops history: {'covering': 179, 'absorption': 378, 'insertion': 621, 'deletion': 379, 'ga_subsumption': 1, 'as_subsumption': 0}
+INFO: Exploit perf: 0.76
+INFO: 
+After 1700 steps
+INFO: Num macros: 584
+INFO: Num micros: 800
+INFO: Micro:macro ratio: 1.3699
+INFO: Min error: 0.0
+INFO: Mean error: 352.1381433942643
+INFO: Median error: 423.2676082914689
+INFO: Max error: 1000.0
+INFO: Min numerosity: 1
+INFO: Mean numerosity: 1.36986301369863
+INFO: Median numerosity: 1.0
+INFO: Max numerosity: 6
+INFO: Min generality: 0
+INFO: Mean generality: 5.597602739726027
+INFO: Median generality: 6.0
+INFO: Max generality: 11
+INFO: Pop ops history: {'covering': 179, 'absorption': 404, 'insertion': 661, 'deletion': 447, 'ga_subsumption': 3, 'as_subsumption': 0}
+INFO: Exploit perf: 0.77
+INFO: 
+After 1800 steps
+INFO: Num macros: 592
+INFO: Num micros: 800
+INFO: Micro:macro ratio: 1.3514
+INFO: Min error: 0.0
+INFO: Mean error: 355.50102930679327
+INFO: Median error: 433.9578041011398
+INFO: Max error: 1000.0
+INFO: Min numerosity: 1
+INFO: Mean numerosity: 1.3513513513513513
+INFO: Median numerosity: 1.0
+INFO: Max numerosity: 6
+INFO: Min generality: 0
+INFO: Mean generality: 5.658783783783784
+INFO: Median generality: 6.0
+INFO: Max generality: 11
+INFO: Pop ops history: {'covering': 179, 'absorption': 437, 'insertion': 718, 'deletion': 537, 'ga_subsumption': 3, 'as_subsumption': 0}
+INFO: Exploit perf: 0.74
+INFO: 
+After 1900 steps
+INFO: Num macros: 594
+INFO: Num micros: 800
+INFO: Micro:macro ratio: 1.3468
+INFO: Min error: 0.0
+INFO: Mean error: 348.16269338032396
+INFO: Median error: 415.79797143026707
+INFO: Max error: 1000.0
+INFO: Min numerosity: 1
+INFO: Mean numerosity: 1.3468013468013469
+INFO: Median numerosity: 1.0
+INFO: Max numerosity: 6
+INFO: Min generality: 0
+INFO: Mean generality: 5.68013468013468
+INFO: Median generality: 6.0
+INFO: Max generality: 11
+INFO: Pop ops history: {'covering': 179, 'absorption': 464, 'insertion': 761, 'deletion': 607, 'ga_subsumption': 3, 'as_subsumption': 0}
+INFO: Exploit perf: 0.75
+INFO: 
+After 2000 steps
+INFO: Num macros: 593
+INFO: Num micros: 800
+INFO: Micro:macro ratio: 1.3491
+INFO: Min error: 0.0
+INFO: Mean error: 347.84562957777933
+INFO: Median error: 421.6809850591511
+INFO: Max error: 1000.0
+INFO: Min numerosity: 1
+INFO: Mean numerosity: 1.349072512647555
+INFO: Median numerosity: 1.0
+INFO: Max numerosity: 6
+INFO: Min generality: 0
+INFO: Mean generality: 5.693086003372681
+INFO: Median generality: 6.0
+INFO: Max generality: 11
+INFO: Pop ops history: {'covering': 179, 'absorption': 496, 'insertion': 801, 'deletion': 679, 'ga_subsumption': 3, 'as_subsumption': 0}
+INFO: Exploit perf: 0.74
+INFO: 
+After 2100 steps
+INFO: Num macros: 599
+INFO: Num micros: 800
+INFO: Micro:macro ratio: 1.3356
+INFO: Min error: 0.0
+INFO: Mean error: 339.18845834512206
+INFO: Median error: 424.4693762523368
+INFO: Max error: 1000.0
+INFO: Min numerosity: 1
+INFO: Mean numerosity: 1.335559265442404
+INFO: Median numerosity: 1.0
+INFO: Max numerosity: 7
+INFO: Min generality: 0
+INFO: Mean generality: 5.662771285475793
+INFO: Median generality: 6.0
+INFO: Max generality: 11
+INFO: Pop ops history: {'covering': 179, 'absorption': 525, 'insertion': 857, 'deletion': 767, 'ga_subsumption': 6, 'as_subsumption': 0}
+INFO: Exploit perf: 0.68
+INFO: 
+After 2200 steps
+INFO: Num macros: 594
+INFO: Num micros: 800
+INFO: Micro:macro ratio: 1.3468
+INFO: Min error: 0.0
+INFO: Mean error: 328.8504931085097
+INFO: Median error: 402.9481218954208
+INFO: Max error: 1000.0
+INFO: Min numerosity: 1
+INFO: Mean numerosity: 1.3468013468013469
+INFO: Median numerosity: 1.0
+INFO: Max numerosity: 8
+INFO: Min generality: 0
+INFO: Mean generality: 5.611111111111111
+INFO: Median generality: 6.0
+INFO: Max generality: 11
+INFO: Pop ops history: {'covering': 179, 'absorption': 555, 'insertion': 892, 'deletion': 833, 'ga_subsumption': 7, 'as_subsumption': 0}
+INFO: Exploit perf: 0.68
+INFO: 
+After 2300 steps
+INFO: Num macros: 592
+INFO: Num micros: 800
+INFO: Micro:macro ratio: 1.3514
+INFO: Min error: 0.0
+INFO: Mean error: 329.37040065494296
+INFO: Median error: 404.4425464379136
+INFO: Max error: 1000.0
+INFO: Min numerosity: 1
+INFO: Mean numerosity: 1.3513513513513513
+INFO: Median numerosity: 1.0
+INFO: Max numerosity: 7
+INFO: Min generality: 0
+INFO: Mean generality: 5.655405405405405
+INFO: Median generality: 6.0
+INFO: Max generality: 11
+INFO: Pop ops history: {'covering': 179, 'absorption': 583, 'insertion': 934, 'deletion': 903, 'ga_subsumption': 7, 'as_subsumption': 0}
+INFO: Exploit perf: 0.76
+INFO: 
+After 2400 steps
+INFO: Num macros: 593
+INFO: Num micros: 800
+INFO: Micro:macro ratio: 1.3491
+INFO: Min error: 0.0
+INFO: Mean error: 333.46294586316276
+INFO: Median error: 420.3105904914116
+INFO: Max error: 1000.0
+INFO: Min numerosity: 1
+INFO: Mean numerosity: 1.349072512647555
+INFO: Median numerosity: 1.0
+INFO: Max numerosity: 8
+INFO: Min generality: 0
+INFO: Mean generality: 5.662731871838111
+INFO: Median generality: 6.0
+INFO: Max generality: 11
+INFO: Pop ops history: {'covering': 179, 'absorption': 612, 'insertion': 989, 'deletion': 989, 'ga_subsumption': 9, 'as_subsumption': 0}
+INFO: Exploit perf: 0.72
+INFO: 
+After 2500 steps
+INFO: Num macros: 601
+INFO: Num micros: 800
+INFO: Micro:macro ratio: 1.3311
+INFO: Min error: 0.0
+INFO: Mean error: 336.79316895890815
+INFO: Median error: 438.5783820133387
+INFO: Max error: 1000.0
+INFO: Min numerosity: 1
+INFO: Mean numerosity: 1.3311148086522462
+INFO: Median numerosity: 1.0
+INFO: Max numerosity: 8
+INFO: Min generality: 0
+INFO: Mean generality: 5.707154742096506
+INFO: Median generality: 6.0
+INFO: Max generality: 11
+INFO: Pop ops history: {'covering': 179, 'absorption': 634, 'insertion': 1039, 'deletion': 1061, 'ga_subsumption': 9, 'as_subsumption': 0}
+INFO: Exploit perf: 0.69
+INFO: 
+After 2600 steps
+INFO: Num macros: 602
+INFO: Num micros: 800
+INFO: Micro:macro ratio: 1.3289
+INFO: Min error: 0.0
+INFO: Mean error: 327.15246355965814
+INFO: Median error: 419.93394201934973
+INFO: Max error: 1000.0
+INFO: Min numerosity: 1
+INFO: Mean numerosity: 1.3289036544850499
+INFO: Median numerosity: 1.0
+INFO: Max numerosity: 8
+INFO: Min generality: 0
+INFO: Mean generality: 5.724252491694352
+INFO: Median generality: 6.0
+INFO: Max generality: 11
+INFO: Pop ops history: {'covering': 179, 'absorption': 667, 'insertion': 1090, 'deletion': 1145, 'ga_subsumption': 9, 'as_subsumption': 0}
+INFO: Exploit perf: 0.72
+INFO: 
+After 2700 steps
+INFO: Num macros: 610
+INFO: Num micros: 800
+INFO: Micro:macro ratio: 1.3115
+INFO: Min error: 0.0
+INFO: Mean error: 296.4475676375092
+INFO: Median error: 357.0502151446709
+INFO: Max error: 1000.0
+INFO: Min numerosity: 1
+INFO: Mean numerosity: 1.3114754098360655
+INFO: Median numerosity: 1.0
+INFO: Max numerosity: 8
+INFO: Min generality: 0
+INFO: Mean generality: 5.731147540983606
+INFO: Median generality: 6.0
+INFO: Max generality: 11
+INFO: Pop ops history: {'covering': 179, 'absorption': 697, 'insertion': 1148, 'deletion': 1233, 'ga_subsumption': 9, 'as_subsumption': 0}
+INFO: Exploit perf: 0.79
+INFO: 
+After 2800 steps
+INFO: Num macros: 612
+INFO: Num micros: 800
+INFO: Micro:macro ratio: 1.3072
+INFO: Min error: 0.0
+INFO: Mean error: 299.51141213991514
+INFO: Median error: 370.09131028480004
+INFO: Max error: 1000.0
+INFO: Min numerosity: 1
+INFO: Mean numerosity: 1.3071895424836601
+INFO: Median numerosity: 1.0
+INFO: Max numerosity: 10
+INFO: Min generality: 0
+INFO: Mean generality: 5.676470588235294
+INFO: Median generality: 6.0
+INFO: Max generality: 11
+INFO: Pop ops history: {'covering': 179, 'absorption': 725, 'insertion': 1222, 'deletion': 1337, 'ga_subsumption': 11, 'as_subsumption': 0}
+INFO: Exploit perf: 0.82
+INFO: 
+After 2900 steps
+INFO: Num macros: 610
+INFO: Num micros: 800
+INFO: Micro:macro ratio: 1.3115
+INFO: Min error: 0.0
+INFO: Mean error: 299.91806108013856
+INFO: Median error: 366.61215573333334
+INFO: Max error: 1000.0
+INFO: Min numerosity: 1
+INFO: Mean numerosity: 1.3114754098360655
+INFO: Median numerosity: 1.0
+INFO: Max numerosity: 8
+INFO: Min generality: 0
+INFO: Mean generality: 5.7
+INFO: Median generality: 6.0
+INFO: Max generality: 11
+INFO: Pop ops history: {'covering': 179, 'absorption': 756, 'insertion': 1271, 'deletion': 1419, 'ga_subsumption': 13, 'as_subsumption': 0}
+INFO: Exploit perf: 0.83
+INFO: 
+After 3000 steps
+INFO: Num macros: 612
+INFO: Num micros: 800
+INFO: Micro:macro ratio: 1.3072
+INFO: Min error: 0.0
+INFO: Mean error: 295.04829807748564
+INFO: Median error: 352.69791364774164
+INFO: Max error: 1000.0
+INFO: Min numerosity: 1
+INFO: Mean numerosity: 1.3071895424836601
+INFO: Median numerosity: 1.0
+INFO: Max numerosity: 9
+INFO: Min generality: 0
+INFO: Mean generality: 5.666666666666667
+INFO: Median generality: 6.0
+INFO: Max generality: 11
+INFO: Pop ops history: {'covering': 179, 'absorption': 790, 'insertion': 1328, 'deletion': 1511, 'ga_subsumption': 14, 'as_subsumption': 0}
+INFO: Exploit perf: 0.82
+INFO: 
+After 3100 steps
+INFO: Num macros: 611
+INFO: Num micros: 800
+INFO: Micro:macro ratio: 1.3093
+INFO: Min error: 0.0
+INFO: Mean error: 306.27425103224914
+INFO: Median error: 391.7017883488201
+INFO: Max error: 1000.0
+INFO: Min numerosity: 1
+INFO: Mean numerosity: 1.309328968903437
+INFO: Median numerosity: 1.0
+INFO: Max numerosity: 8
+INFO: Min generality: 0
+INFO: Mean generality: 5.684124386252046
+INFO: Median generality: 6.0
+INFO: Max generality: 11
+INFO: Pop ops history: {'covering': 179, 'absorption': 823, 'insertion': 1382, 'deletion': 1601, 'ga_subsumption': 17, 'as_subsumption': 0}
+INFO: Exploit perf: 0.78
+INFO: 
+After 3200 steps
+INFO: Num macros: 601
+INFO: Num micros: 800
+INFO: Micro:macro ratio: 1.3311
+INFO: Min error: 0.0
+INFO: Mean error: 296.75001465028873
+INFO: Median error: 375.7919616656509
+INFO: Max error: 1000.0
+INFO: Min numerosity: 1
+INFO: Mean numerosity: 1.3311148086522462
+INFO: Median numerosity: 1.0
+INFO: Max numerosity: 8
+INFO: Min generality: 0
+INFO: Mean generality: 5.695507487520799
+INFO: Median generality: 6.0
+INFO: Max generality: 10
+INFO: Pop ops history: {'covering': 179, 'absorption': 859, 'insertion': 1438, 'deletion': 1697, 'ga_subsumption': 21, 'as_subsumption': 0}
+INFO: Exploit perf: 0.78
+INFO: 
+After 3300 steps
+INFO: Num macros: 593
+INFO: Num micros: 800
+INFO: Micro:macro ratio: 1.3491
+INFO: Min error: 0.0
+INFO: Mean error: 286.7815432324636
+INFO: Median error: 354.8998899932483
+INFO: Max error: 1000.0
+INFO: Min numerosity: 1
+INFO: Mean numerosity: 1.349072512647555
+INFO: Median numerosity: 1.0
+INFO: Max numerosity: 10
+INFO: Min generality: 0
+INFO: Mean generality: 5.750421585160202
+INFO: Median generality: 6.0
+INFO: Max generality: 10
+INFO: Pop ops history: {'covering': 179, 'absorption': 884, 'insertion': 1488, 'deletion': 1779, 'ga_subsumption': 28, 'as_subsumption': 0}
+INFO: Exploit perf: 0.84
+INFO: 
+After 3400 steps
+INFO: Num macros: 592
+INFO: Num micros: 800
+INFO: Micro:macro ratio: 1.3514
+INFO: Min error: 0.0
+INFO: Mean error: 285.5815023379017
+INFO: Median error: 347.5634706544687
+INFO: Max error: 1000.0
+INFO: Min numerosity: 1
+INFO: Mean numerosity: 1.3513513513513513
+INFO: Median numerosity: 1.0
+INFO: Max numerosity: 12
+INFO: Min generality: 0
+INFO: Mean generality: 5.797297297297297
+INFO: Median generality: 6.0
+INFO: Max generality: 10
+INFO: Pop ops history: {'covering': 179, 'absorption': 915, 'insertion': 1540, 'deletion': 1871, 'ga_subsumption': 37, 'as_subsumption': 0}
+INFO: Exploit perf: 0.83
+INFO: 
+After 3500 steps
+INFO: Num macros: 581
+INFO: Num micros: 800
+INFO: Micro:macro ratio: 1.3769
+INFO: Min error: 0.0
+INFO: Mean error: 283.0440810236258
+INFO: Median error: 344.7138390989243
+INFO: Max error: 1000.0
+INFO: Min numerosity: 1
+INFO: Mean numerosity: 1.3769363166953528
+INFO: Median numerosity: 1.0
+INFO: Max numerosity: 14
+INFO: Min generality: 0
+INFO: Mean generality: 5.72289156626506
+INFO: Median generality: 6.0
+INFO: Max generality: 10
+INFO: Pop ops history: {'covering': 179, 'absorption': 953, 'insertion': 1595, 'deletion': 1971, 'ga_subsumption': 44, 'as_subsumption': 0}
+INFO: Exploit perf: 0.82
+INFO: 
+After 3600 steps
+INFO: Num macros: 576
+INFO: Num micros: 800
+INFO: Micro:macro ratio: 1.3889
+INFO: Min error: 0.0
+INFO: Mean error: 265.38834683574044
+INFO: Median error: 325.3240937130667
+INFO: Max error: 1000.0
+INFO: Min numerosity: 1
+INFO: Mean numerosity: 1.3888888888888888
+INFO: Median numerosity: 1.0
+INFO: Max numerosity: 14
+INFO: Min generality: 0
+INFO: Mean generality: 5.685763888888889
+INFO: Median generality: 6.0
+INFO: Max generality: 10
+INFO: Pop ops history: {'covering': 179, 'absorption': 987, 'insertion': 1655, 'deletion': 2073, 'ga_subsumption': 52, 'as_subsumption': 0}
+INFO: Exploit perf: 0.83
+INFO: 
+After 3700 steps
+INFO: Num macros: 576
+INFO: Num micros: 800
+INFO: Micro:macro ratio: 1.3889
+INFO: Min error: 0.0
+INFO: Mean error: 262.4699946985522
+INFO: Median error: 327.0104591945744
+INFO: Max error: 1000.0
+INFO: Min numerosity: 1
+INFO: Mean numerosity: 1.3888888888888888
+INFO: Median numerosity: 1.0
+INFO: Max numerosity: 14
+INFO: Min generality: 0
+INFO: Mean generality: 5.675347222222222
+INFO: Median generality: 6.0
+INFO: Max generality: 10
+INFO: Pop ops history: {'covering': 179, 'absorption': 1015, 'insertion': 1703, 'deletion': 2155, 'ga_subsumption': 58, 'as_subsumption': 0}
+INFO: Exploit perf: 0.88
+INFO: 
+After 3800 steps
+INFO: Num macros: 565
+INFO: Num micros: 800
+INFO: Micro:macro ratio: 1.4159
+INFO: Min error: 0.0
+INFO: Mean error: 239.77750275057747
+INFO: Median error: 290.1722217316352
+INFO: Max error: 1000.0
+INFO: Min numerosity: 1
+INFO: Mean numerosity: 1.415929203539823
+INFO: Median numerosity: 1.0
+INFO: Max numerosity: 14
+INFO: Min generality: 0
+INFO: Mean generality: 5.676106194690266
+INFO: Median generality: 6.0
+INFO: Max generality: 10
+INFO: Pop ops history: {'covering': 179, 'absorption': 1057, 'insertion': 1760, 'deletion': 2261, 'ga_subsumption': 65, 'as_subsumption': 0}
+INFO: Exploit perf: 0.92
+INFO: 
+After 3900 steps
+INFO: Num macros: 550
+INFO: Num micros: 800
+INFO: Micro:macro ratio: 1.4545
+INFO: Min error: 0.0
+INFO: Mean error: 231.58046039338058
+INFO: Median error: 297.66204889275957
+INFO: Max error: 1000.0
+INFO: Min numerosity: 1
+INFO: Mean numerosity: 1.4545454545454546
+INFO: Median numerosity: 1.0
+INFO: Max numerosity: 15
+INFO: Min generality: 0
+INFO: Mean generality: 5.656363636363636
+INFO: Median generality: 6.0
+INFO: Max generality: 10
+INFO: Pop ops history: {'covering': 179, 'absorption': 1100, 'insertion': 1800, 'deletion': 2353, 'ga_subsumption': 74, 'as_subsumption': 0}
+INFO: Exploit perf: 0.94
+INFO: 
+After 4000 steps
+INFO: Num macros: 551
+INFO: Num micros: 800
+INFO: Micro:macro ratio: 1.4519
+INFO: Min error: 0.0
+INFO: Mean error: 237.05039025836768
+INFO: Median error: 299.95910387029335
+INFO: Max error: 1000.0
+INFO: Min numerosity: 1
+INFO: Mean numerosity: 1.4519056261343013
+INFO: Median numerosity: 1.0
+INFO: Max numerosity: 14
+INFO: Min generality: 0
+INFO: Mean generality: 5.642468239564428
+INFO: Median generality: 6.0
+INFO: Max generality: 10
+INFO: Pop ops history: {'covering': 179, 'absorption': 1128, 'insertion': 1849, 'deletion': 2433, 'ga_subsumption': 77, 'as_subsumption': 0}
+INFO: Exploit perf: 0.89
+INFO: 
+After 4100 steps
+INFO: Num macros: 551
+INFO: Num micros: 800
+INFO: Micro:macro ratio: 1.4519
+INFO: Min error: 0.0
+INFO: Mean error: 224.7025084714598
+INFO: Median error: 250.99855412770623
+INFO: Max error: 1000.0
+INFO: Min numerosity: 1
+INFO: Mean numerosity: 1.4519056261343013
+INFO: Median numerosity: 1.0
+INFO: Max numerosity: 13
+INFO: Min generality: 0
+INFO: Mean generality: 5.715063520871143
+INFO: Median generality: 6.0
+INFO: Max generality: 10
+INFO: Pop ops history: {'covering': 179, 'absorption': 1160, 'insertion': 1892, 'deletion': 2515, 'ga_subsumption': 84, 'as_subsumption': 0}
+INFO: Exploit perf: 0.92
+INFO: 
+After 4200 steps
+INFO: Num macros: 557
+INFO: Num micros: 800
+INFO: Micro:macro ratio: 1.4363
+INFO: Min error: 0.0
+INFO: Mean error: 233.13736770719595
+INFO: Median error: 251.05782547341005
+INFO: Max error: 1000.0
+INFO: Min numerosity: 1
+INFO: Mean numerosity: 1.436265709156194
+INFO: Median numerosity: 1.0
+INFO: Max numerosity: 10
+INFO: Min generality: 0
+INFO: Mean generality: 5.789946140035907
+INFO: Median generality: 6.0
+INFO: Max generality: 10
+INFO: Pop ops history: {'covering': 179, 'absorption': 1191, 'insertion': 1949, 'deletion': 2615, 'ga_subsumption': 96, 'as_subsumption': 0}
+INFO: Exploit perf: 0.92
+INFO: 
+After 4300 steps
+INFO: Num macros: 549
+INFO: Num micros: 800
+INFO: Micro:macro ratio: 1.4572
+INFO: Min error: 0.0
+INFO: Mean error: 210.3895894296022
+INFO: Median error: 204.82184533333333
+INFO: Max error: 1000.0
+INFO: Min numerosity: 1
+INFO: Mean numerosity: 1.4571948998178506
+INFO: Median numerosity: 1.0
+INFO: Max numerosity: 10
+INFO: Min generality: 0
+INFO: Mean generality: 5.7249544626593805
+INFO: Median generality: 6.0
+INFO: Max generality: 10
+INFO: Pop ops history: {'covering': 179, 'absorption': 1223, 'insertion': 1989, 'deletion': 2695, 'ga_subsumption': 104, 'as_subsumption': 0}
+INFO: Exploit perf: 0.9
+INFO: 
+After 4400 steps
+INFO: Num macros: 539
+INFO: Num micros: 800
+INFO: Micro:macro ratio: 1.4842
+INFO: Min error: 0.0
+INFO: Mean error: 206.63388271154173
+INFO: Median error: 201.30741167358715
+INFO: Max error: 1000.0
+INFO: Min numerosity: 1
+INFO: Mean numerosity: 1.484230055658627
+INFO: Median numerosity: 1.0
+INFO: Max numerosity: 10
+INFO: Min generality: 0
+INFO: Mean generality: 5.717996289424861
+INFO: Median generality: 6.0
+INFO: Max generality: 10
+INFO: Pop ops history: {'covering': 179, 'absorption': 1260, 'insertion': 2040, 'deletion': 2795, 'ga_subsumption': 116, 'as_subsumption': 0}
+INFO: Exploit perf: 0.91
+INFO: 
+After 4500 steps
+INFO: Num macros: 543
+INFO: Num micros: 800
+INFO: Micro:macro ratio: 1.4733
+INFO: Min error: 0.0
+INFO: Mean error: 219.11349231280656
+INFO: Median error: 250.26067325842587
+INFO: Max error: 1000.0
+INFO: Min numerosity: 1
+INFO: Mean numerosity: 1.4732965009208103
+INFO: Median numerosity: 1.0
+INFO: Max numerosity: 9
+INFO: Min generality: 0
+INFO: Mean generality: 5.716390423572744
+INFO: Median generality: 6.0
+INFO: Max generality: 10
+INFO: Pop ops history: {'covering': 179, 'absorption': 1290, 'insertion': 2086, 'deletion': 2883, 'ga_subsumption': 128, 'as_subsumption': 0}
+INFO: Exploit perf: 0.89
+INFO: 
+After 4600 steps
+INFO: Num macros: 544
+INFO: Num micros: 800
+INFO: Micro:macro ratio: 1.4706
+INFO: Min error: 0.0
+INFO: Mean error: 230.08693904699786
+INFO: Median error: 268.970925926745
+INFO: Max error: 1000.0
+INFO: Min numerosity: 1
+INFO: Mean numerosity: 1.4705882352941178
+INFO: Median numerosity: 1.0
+INFO: Max numerosity: 10
+INFO: Min generality: 0
+INFO: Mean generality: 5.766544117647059
+INFO: Median generality: 6.0
+INFO: Max generality: 11
+INFO: Pop ops history: {'covering': 179, 'absorption': 1327, 'insertion': 2139, 'deletion': 2975, 'ga_subsumption': 130, 'as_subsumption': 0}
+INFO: Exploit perf: 0.85
+INFO: 
+After 4700 steps
+INFO: Num macros: 539
+INFO: Num micros: 800
+INFO: Micro:macro ratio: 1.4842
+INFO: Min error: 0.0
+INFO: Mean error: 226.76103183330395
+INFO: Median error: 264.8953750302813
+INFO: Max error: 1000.0
+INFO: Min numerosity: 1
+INFO: Mean numerosity: 1.484230055658627
+INFO: Median numerosity: 1.0
+INFO: Max numerosity: 12
+INFO: Min generality: 0
+INFO: Mean generality: 5.7606679035250465
+INFO: Median generality: 6.0
+INFO: Max generality: 10
+INFO: Pop ops history: {'covering': 179, 'absorption': 1351, 'insertion': 2175, 'deletion': 3049, 'ga_subsumption': 144, 'as_subsumption': 0}
+INFO: Exploit perf: 0.89
+INFO: 
+After 4800 steps
+INFO: Num macros: 545
+INFO: Num micros: 800
+INFO: Micro:macro ratio: 1.4679
+INFO: Min error: 0.0
+INFO: Mean error: 217.5371112333791
+INFO: Median error: 244.46408078060813
+INFO: Max error: 1000.0
+INFO: Min numerosity: 1
+INFO: Mean numerosity: 1.4678899082568808
+INFO: Median numerosity: 1.0
+INFO: Max numerosity: 10
+INFO: Min generality: 0
+INFO: Mean generality: 5.706422018348624
+INFO: Median generality: 6.0
+INFO: Max generality: 10
+INFO: Pop ops history: {'covering': 179, 'absorption': 1378, 'insertion': 2229, 'deletion': 3139, 'ga_subsumption': 153, 'as_subsumption': 0}
+INFO: Exploit perf: 0.92
+INFO: 
+After 4900 steps
+INFO: Num macros: 539
+INFO: Num micros: 800
+INFO: Micro:macro ratio: 1.4842
+INFO: Min error: 0.0
+INFO: Mean error: 208.79702456651475
+INFO: Median error: 235.11397664259937
+INFO: Max error: 1000.0
+INFO: Min numerosity: 1
+INFO: Mean numerosity: 1.484230055658627
+INFO: Median numerosity: 1.0
+INFO: Max numerosity: 14
+INFO: Min generality: 0
+INFO: Mean generality: 5.64935064935065
+INFO: Median generality: 6.0
+INFO: Max generality: 10
+INFO: Pop ops history: {'covering': 179, 'absorption': 1411, 'insertion': 2267, 'deletion': 3225, 'ga_subsumption': 168, 'as_subsumption': 0}
+INFO: Exploit perf: 0.96
+INFO: 
+After 5000 steps
+INFO: Num macros: 541
+INFO: Num micros: 800
+INFO: Micro:macro ratio: 1.4787
+INFO: Min error: 0.0
+INFO: Mean error: 197.35725912080017
+INFO: Median error: 189.33132995242661
+INFO: Max error: 1000.0
+INFO: Min numerosity: 1
+INFO: Mean numerosity: 1.478743068391867
+INFO: Median numerosity: 1.0
+INFO: Max numerosity: 14
+INFO: Min generality: 0
+INFO: Mean generality: 5.630314232902033
+INFO: Median generality: 6.0
+INFO: Max generality: 9
+INFO: Pop ops history: {'covering': 179, 'absorption': 1440, 'insertion': 2323, 'deletion': 3319, 'ga_subsumption': 177, 'as_subsumption': 0}
+INFO: Exploit perf: 0.97
+INFO: 
+After 5100 steps
+INFO: Num macros: 533
+INFO: Num micros: 800
+INFO: Micro:macro ratio: 1.5009
+INFO: Min error: 0.0
+INFO: Mean error: 194.4040053619132
+INFO: Median error: 200.00000000000003
+INFO: Max error: 1000.0
+INFO: Min numerosity: 1
+INFO: Mean numerosity: 1.5009380863039399
+INFO: Median numerosity: 1.0
+INFO: Max numerosity: 14
+INFO: Min generality: 0
+INFO: Mean generality: 5.686679174484053
+INFO: Median generality: 6.0
+INFO: Max generality: 9
+INFO: Pop ops history: {'covering': 179, 'absorption': 1475, 'insertion': 2377, 'deletion': 3425, 'ga_subsumption': 194, 'as_subsumption': 0}
+INFO: Exploit perf: 0.94
+INFO: 
+After 5200 steps
+INFO: Num macros: 535
+INFO: Num micros: 800
+INFO: Micro:macro ratio: 1.4953
+INFO: Min error: 0.0
+INFO: Mean error: 206.7069204293213
+INFO: Median error: 247.2451648436061
+INFO: Max error: 1000.0
+INFO: Min numerosity: 1
+INFO: Mean numerosity: 1.4953271028037383
+INFO: Median numerosity: 1.0
+INFO: Max numerosity: 15
+INFO: Min generality: 0
+INFO: Mean generality: 5.700934579439252
+INFO: Median generality: 6.0
+INFO: Max generality: 9
+INFO: Pop ops history: {'covering': 179, 'absorption': 1495, 'insertion': 2427, 'deletion': 3509, 'ga_subsumption': 208, 'as_subsumption': 0}
+INFO: Exploit perf: 0.86
+INFO: 
+After 5300 steps
+INFO: Num macros: 534
+INFO: Num micros: 800
+INFO: Micro:macro ratio: 1.4981
+INFO: Min error: 0.0
+INFO: Mean error: 211.39174618885278
+INFO: Median error: 295.5446549029882
+INFO: Max error: 1000.0
+INFO: Min numerosity: 1
+INFO: Mean numerosity: 1.4981273408239701
+INFO: Median numerosity: 1.0
+INFO: Max numerosity: 13
+INFO: Min generality: 0
+INFO: Mean generality: 5.765917602996255
+INFO: Median generality: 6.0
+INFO: Max generality: 10
+INFO: Pop ops history: {'covering': 179, 'absorption': 1523, 'insertion': 2487, 'deletion': 3615, 'ga_subsumption': 226, 'as_subsumption': 0}
+INFO: Exploit perf: 0.84
+INFO: 
+After 5400 steps
+INFO: Num macros: 535
+INFO: Num micros: 800
+INFO: Micro:macro ratio: 1.4953
+INFO: Min error: 0.0
+INFO: Mean error: 196.76941753397404
+INFO: Median error: 239.75566930677667
+INFO: Max error: 1000.0
+INFO: Min numerosity: 1
+INFO: Mean numerosity: 1.4953271028037383
+INFO: Median numerosity: 1.0
+INFO: Max numerosity: 15
+INFO: Min generality: 0
+INFO: Mean generality: 5.770093457943926
+INFO: Median generality: 6.0
+INFO: Max generality: 10
+INFO: Pop ops history: {'covering': 179, 'absorption': 1545, 'insertion': 2537, 'deletion': 3701, 'ga_subsumption': 240, 'as_subsumption': 0}
+INFO: Exploit perf: 0.9
+INFO: 
+After 5500 steps
+INFO: Num macros: 521
+INFO: Num micros: 800
+INFO: Micro:macro ratio: 1.5355
+INFO: Min error: 0.0
+INFO: Mean error: 189.95405708599236
+INFO: Median error: 208.73813333333328
+INFO: Max error: 1000.0
+INFO: Min numerosity: 1
+INFO: Mean numerosity: 1.5355086372360844
+INFO: Median numerosity: 1.0
+INFO: Max numerosity: 18
+INFO: Min generality: 0
+INFO: Mean generality: 5.731285988483685
+INFO: Median generality: 6.0
+INFO: Max generality: 10
+INFO: Pop ops history: {'covering': 179, 'absorption': 1573, 'insertion': 2569, 'deletion': 3777, 'ga_subsumption': 256, 'as_subsumption': 0}
+INFO: Exploit perf: 0.94
+INFO: 
+After 5600 steps
+INFO: Num macros: 500
+INFO: Num micros: 800
+INFO: Micro:macro ratio: 1.6000
+INFO: Min error: 0.0
+INFO: Mean error: 177.51749532084688
+INFO: Median error: 199.32081526162318
+INFO: Max error: 1000.0
+INFO: Min numerosity: 1
+INFO: Mean numerosity: 1.6
+INFO: Median numerosity: 1.0
+INFO: Max numerosity: 19
+INFO: Min generality: 0
+INFO: Mean generality: 5.684
+INFO: Median generality: 6.0
+INFO: Max generality: 10
+INFO: Pop ops history: {'covering': 179, 'absorption': 1603, 'insertion': 2599, 'deletion': 3863, 'ga_subsumption': 282, 'as_subsumption': 0}
+INFO: Exploit perf: 0.96
+INFO: 
+After 5700 steps
+INFO: Num macros: 494
+INFO: Num micros: 800
+INFO: Micro:macro ratio: 1.6194
+INFO: Min error: 0.0
+INFO: Mean error: 167.6436831458666
+INFO: Median error: 183.96800000000002
+INFO: Max error: 1000.0
+INFO: Min numerosity: 1
+INFO: Mean numerosity: 1.6194331983805668
+INFO: Median numerosity: 1.0
+INFO: Max numerosity: 18
+INFO: Min generality: 0
+INFO: Mean generality: 5.698380566801619
+INFO: Median generality: 6.0
+INFO: Max generality: 10
+INFO: Pop ops history: {'covering': 179, 'absorption': 1628, 'insertion': 2637, 'deletion': 3943, 'ga_subsumption': 299, 'as_subsumption': 0}
+INFO: Exploit perf: 0.95
+INFO: 
+After 5800 steps
+INFO: Num macros: 485
+INFO: Num micros: 800
+INFO: Micro:macro ratio: 1.6495
+INFO: Min error: 0.0
+INFO: Mean error: 164.8116468724736
+INFO: Median error: 188.75005834710254
+INFO: Max error: 1000.0
+INFO: Min numerosity: 1
+INFO: Mean numerosity: 1.6494845360824741
+INFO: Median numerosity: 1.0
+INFO: Max numerosity: 16
+INFO: Min generality: 0
+INFO: Mean generality: 5.723711340206186
+INFO: Median generality: 6.0
+INFO: Max generality: 10
+INFO: Pop ops history: {'covering': 179, 'absorption': 1660, 'insertion': 2679, 'deletion': 4037, 'ga_subsumption': 319, 'as_subsumption': 0}
+INFO: Exploit perf: 0.95
+INFO: 
+After 5900 steps
+INFO: Num macros: 482
+INFO: Num micros: 800
+INFO: Micro:macro ratio: 1.6598
+INFO: Min error: 0.0
+INFO: Mean error: 168.87842162265002
+INFO: Median error: 188.3496297268738
+INFO: Max error: 1000.0
+INFO: Min numerosity: 1
+INFO: Mean numerosity: 1.6597510373443984
+INFO: Median numerosity: 1.0
+INFO: Max numerosity: 14
+INFO: Min generality: 0
+INFO: Mean generality: 5.6887966804979255
+INFO: Median generality: 6.0
+INFO: Max generality: 10
+INFO: Pop ops history: {'covering': 179, 'absorption': 1688, 'insertion': 2722, 'deletion': 4121, 'ga_subsumption': 332, 'as_subsumption': 0}
+INFO: Exploit perf: 0.94
+INFO: 
+After 6000 steps
+INFO: Num macros: 469
+INFO: Num micros: 800
+INFO: Micro:macro ratio: 1.7058
+INFO: Min error: 0.0
+INFO: Mean error: 151.77425653336775
+INFO: Median error: 141.60869562777594
+INFO: Max error: 1000.0
+INFO: Min numerosity: 1
+INFO: Mean numerosity: 1.7057569296375266
+INFO: Median numerosity: 1.0
+INFO: Max numerosity: 14
+INFO: Min generality: 0
+INFO: Mean generality: 5.643923240938166
+INFO: Median generality: 6.0
+INFO: Max generality: 9
+INFO: Pop ops history: {'covering': 180, 'absorption': 1711, 'insertion': 2758, 'deletion': 4208, 'ga_subsumption': 359, 'as_subsumption': 0}
+INFO: Exploit perf: 0.92
+INFO: 
+After 6100 steps
+INFO: Num macros: 481
+INFO: Num micros: 800
+INFO: Micro:macro ratio: 1.6632
+INFO: Min error: 0.0
+INFO: Mean error: 158.94729356668134
+INFO: Median error: 144.95514624
+INFO: Max error: 1000.0
+INFO: Min numerosity: 1
+INFO: Mean numerosity: 1.6632016632016633
+INFO: Median numerosity: 1.0
+INFO: Max numerosity: 13
+INFO: Min generality: 0
+INFO: Mean generality: 5.702702702702703
+INFO: Median generality: 6.0
+INFO: Max generality: 9
+INFO: Pop ops history: {'covering': 180, 'absorption': 1740, 'insertion': 2812, 'deletion': 4312, 'ga_subsumption': 380, 'as_subsumption': 0}
+INFO: Exploit perf: 0.91
+INFO: 
+After 6200 steps
+INFO: Num macros: 488
+INFO: Num micros: 800
+INFO: Micro:macro ratio: 1.6393
+INFO: Min error: 0.0
+INFO: Mean error: 178.77396211662443
+INFO: Median error: 183.9982874011646
+INFO: Max error: 1000.0
+INFO: Min numerosity: 1
+INFO: Mean numerosity: 1.639344262295082
+INFO: Median numerosity: 1.0
+INFO: Max numerosity: 16
+INFO: Min generality: 0
+INFO: Mean generality: 5.752049180327869
+INFO: Median generality: 6.0
+INFO: Max generality: 9
+INFO: Pop ops history: {'covering': 180, 'absorption': 1771, 'insertion': 2864, 'deletion': 4412, 'ga_subsumption': 397, 'as_subsumption': 0}
+INFO: Exploit perf: 0.87
+INFO: 
+After 6300 steps
+INFO: Num macros: 483
+INFO: Num micros: 800
+INFO: Micro:macro ratio: 1.6563
+INFO: Min error: 0.0
+INFO: Mean error: 173.11217967946163
+INFO: Median error: 200.0
+INFO: Max error: 1000.0
+INFO: Min numerosity: 1
+INFO: Mean numerosity: 1.6563146997929608
+INFO: Median numerosity: 1.0
+INFO: Max numerosity: 16
+INFO: Min generality: 0
+INFO: Mean generality: 5.784679089026915
+INFO: Median generality: 6.0
+INFO: Max generality: 9
+INFO: Pop ops history: {'covering': 180, 'absorption': 1793, 'insertion': 2897, 'deletion': 4494, 'ga_subsumption': 424, 'as_subsumption': 0}
+INFO: Exploit perf: 0.88
+INFO: 
+After 6400 steps
+INFO: Num macros: 482
+INFO: Num micros: 800
+INFO: Micro:macro ratio: 1.6598
+INFO: Min error: 0.0
+INFO: Mean error: 168.52594378049073
+INFO: Median error: 200.0
+INFO: Max error: 1000.0
+INFO: Min numerosity: 1
+INFO: Mean numerosity: 1.6597510373443984
+INFO: Median numerosity: 1.0
+INFO: Max numerosity: 15
+INFO: Min generality: 0
+INFO: Mean generality: 5.831950207468879
+INFO: Median generality: 6.0
+INFO: Max generality: 9
+INFO: Pop ops history: {'covering': 180, 'absorption': 1817, 'insertion': 2940, 'deletion': 4582, 'ga_subsumption': 445, 'as_subsumption': 0}
+INFO: Exploit perf: 0.91
+INFO: 
+After 6500 steps
+INFO: Num macros: 472
+INFO: Num micros: 800
+INFO: Micro:macro ratio: 1.6949
+INFO: Min error: 0.0
+INFO: Mean error: 169.94570175153288
+INFO: Median error: 200.0
+INFO: Max error: 1000.0
+INFO: Min numerosity: 1
+INFO: Mean numerosity: 1.694915254237288
+INFO: Median numerosity: 1.0
+INFO: Max numerosity: 15
+INFO: Min generality: 0
+INFO: Mean generality: 5.915254237288136
+INFO: Median generality: 6.0
+INFO: Max generality: 10
+INFO: Pop ops history: {'covering': 180, 'absorption': 1846, 'insertion': 2982, 'deletion': 4680, 'ga_subsumption': 472, 'as_subsumption': 0}
+INFO: Exploit perf: 0.93
+INFO: 
+After 6600 steps
+INFO: Num macros: 458
+INFO: Num micros: 800
+INFO: Micro:macro ratio: 1.7467
+INFO: Min error: 0.0
+INFO: Mean error: 165.94368426011388
+INFO: Median error: 211.0918168576
+INFO: Max error: 1000.0
+INFO: Min numerosity: 1
+INFO: Mean numerosity: 1.7467248908296944
+INFO: Median numerosity: 1.0
+INFO: Max numerosity: 15
+INFO: Min generality: 0
+INFO: Mean generality: 5.962882096069869
+INFO: Median generality: 6.0
+INFO: Max generality: 10
+INFO: Pop ops history: {'covering': 180, 'absorption': 1874, 'insertion': 3020, 'deletion': 4772, 'ga_subsumption': 498, 'as_subsumption': 0}
+INFO: Exploit perf: 0.92
+INFO: 
+After 6700 steps
+INFO: Num macros: 455
+INFO: Num micros: 800
+INFO: Micro:macro ratio: 1.7582
+INFO: Min error: 0.0
+INFO: Mean error: 150.03701890220486
+INFO: Median error: 144.95514624
+INFO: Max error: 1000.0
+INFO: Min numerosity: 1
+INFO: Mean numerosity: 1.7582417582417582
+INFO: Median numerosity: 1.0
+INFO: Max numerosity: 15
+INFO: Min generality: 0
+INFO: Mean generality: 5.931868131868132
+INFO: Median generality: 6.0
+INFO: Max generality: 10
+INFO: Pop ops history: {'covering': 180, 'absorption': 1901, 'insertion': 3056, 'deletion': 4858, 'ga_subsumption': 521, 'as_subsumption': 0}
+INFO: Exploit perf: 0.93
+INFO: 
+After 6800 steps
+INFO: Num macros: 452
+INFO: Num micros: 800
+INFO: Micro:macro ratio: 1.7699
+INFO: Min error: 0.0
+INFO: Mean error: 139.98774005189122
+INFO: Median error: 129.536
+INFO: Max error: 985.9920800745259
+INFO: Min numerosity: 1
+INFO: Mean numerosity: 1.7699115044247788
+INFO: Median numerosity: 1.0
+INFO: Max numerosity: 17
+INFO: Min generality: 0
+INFO: Mean generality: 5.926991150442478
+INFO: Median generality: 6.0
+INFO: Max generality: 9
+INFO: Pop ops history: {'covering': 180, 'absorption': 1925, 'insertion': 3091, 'deletion': 4950, 'ga_subsumption': 554, 'as_subsumption': 0}
+INFO: Exploit perf: 0.97
+INFO: 
+After 6900 steps
+INFO: Num macros: 453
+INFO: Num micros: 800
+INFO: Micro:macro ratio: 1.7660
+INFO: Min error: 0.0
+INFO: Mean error: 140.21022559958573
+INFO: Median error: 95.59009802381367
+INFO: Max error: 1000.0
+INFO: Min numerosity: 1
+INFO: Mean numerosity: 1.7660044150110374
+INFO: Median numerosity: 1.0
+INFO: Max numerosity: 15
+INFO: Min generality: 0
+INFO: Mean generality: 5.876379690949228
+INFO: Median generality: 6.0
+INFO: Max generality: 9
+INFO: Pop ops history: {'covering': 180, 'absorption': 1944, 'insertion': 3134, 'deletion': 5034, 'ga_subsumption': 576, 'as_subsumption': 0}
+INFO: Exploit perf: 0.97
+INFO: 
+After 7000 steps
+INFO: Num macros: 447
+INFO: Num micros: 800
+INFO: Micro:macro ratio: 1.7897
+INFO: Min error: 0.0
+INFO: Mean error: 134.91205893322092
+INFO: Median error: 80.0
+INFO: Max error: 1000.0
+INFO: Min numerosity: 1
+INFO: Mean numerosity: 1.7897091722595078
+INFO: Median numerosity: 1.0
+INFO: Max numerosity: 16
+INFO: Min generality: 0
+INFO: Mean generality: 5.894854586129754
+INFO: Median generality: 6.0
+INFO: Max generality: 10
+INFO: Pop ops history: {'covering': 180, 'absorption': 1974, 'insertion': 3179, 'deletion': 5122, 'ga_subsumption': 589, 'as_subsumption': 0}
+INFO: Exploit perf: 0.95
+INFO: 
+After 7100 steps
+INFO: Num macros: 448
+INFO: Num micros: 800
+INFO: Micro:macro ratio: 1.7857
+INFO: Min error: 0.0
+INFO: Mean error: 135.52094585169434
+INFO: Median error: 70.17541338311335
+INFO: Max error: 1000.0
+INFO: Min numerosity: 1
+INFO: Mean numerosity: 1.7857142857142858
+INFO: Median numerosity: 1.0
+INFO: Max numerosity: 16
+INFO: Min generality: 0
+INFO: Mean generality: 5.917410714285714
+INFO: Median generality: 6.0
+INFO: Max generality: 9
+INFO: Pop ops history: {'covering': 180, 'absorption': 1998, 'insertion': 3217, 'deletion': 5212, 'ga_subsumption': 617, 'as_subsumption': 0}
+INFO: Exploit perf: 0.93
+INFO: 
+After 7200 steps
+INFO: Num macros: 442
+INFO: Num micros: 800
+INFO: Micro:macro ratio: 1.8100
+INFO: Min error: 0.0
+INFO: Mean error: 129.127142633468
+INFO: Median error: 65.8554432
+INFO: Max error: 1000.0
+INFO: Min numerosity: 1
+INFO: Mean numerosity: 1.8099547511312217
+INFO: Median numerosity: 1.0
+INFO: Max numerosity: 14
+INFO: Min generality: 0
+INFO: Mean generality: 5.884615384615385
+INFO: Median generality: 6.0
+INFO: Max generality: 9
+INFO: Pop ops history: {'covering': 180, 'absorption': 2029, 'insertion': 3252, 'deletion': 5314, 'ga_subsumption': 653, 'as_subsumption': 0}
+INFO: Exploit perf: 0.94
+INFO: 
+After 7300 steps
+INFO: Num macros: 442
+INFO: Num micros: 800
+INFO: Micro:macro ratio: 1.8100
+INFO: Min error: 0.0
+INFO: Mean error: 131.16060332593818
+INFO: Median error: 66.51573029909216
+INFO: Max error: 1000.0
+INFO: Min numerosity: 1
+INFO: Mean numerosity: 1.8099547511312217
+INFO: Median numerosity: 1.0
+INFO: Max numerosity: 18
+INFO: Min generality: 0
+INFO: Mean generality: 5.911764705882353
+INFO: Median generality: 6.0
+INFO: Max generality: 9
+INFO: Pop ops history: {'covering': 180, 'absorption': 2057, 'insertion': 3293, 'deletion': 5408, 'ga_subsumption': 678, 'as_subsumption': 0}
+INFO: Exploit perf: 0.95
+INFO: 
+After 7400 steps
+INFO: Num macros: 442
+INFO: Num micros: 800
+INFO: Micro:macro ratio: 1.8100
+INFO: Min error: 0.0
+INFO: Mean error: 127.60797237416489
+INFO: Median error: 80.61897402442492
+INFO: Max error: 1000.0
+INFO: Min numerosity: 1
+INFO: Mean numerosity: 1.8099547511312217
+INFO: Median numerosity: 1.0
+INFO: Max numerosity: 17
+INFO: Min generality: 0
+INFO: Mean generality: 5.920814479638009
+INFO: Median generality: 6.0
+INFO: Max generality: 9
+INFO: Pop ops history: {'covering': 180, 'absorption': 2085, 'insertion': 3334, 'deletion': 5506, 'ga_subsumption': 707, 'as_subsumption': 0}
+INFO: Exploit perf: 1.0
+INFO: Max exploit perf achieved @ step 7400
