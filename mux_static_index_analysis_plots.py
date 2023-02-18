@@ -2,17 +2,14 @@ import pickle
 
 import matplotlib.pyplot as plt
 import numpy as np
+from matplotlib.lines import Line2D
 
 _NROWS = 2
-_NCOLS = 2
+_NCOLS = 1
 
 _NUM_ADDR_BITSS = (2, 3, 4)
 
-_NUM_PHENOTYPE_VEC_DIMSS = {
-    nab: (2 * (nab + 2**nab))
-    for nab in _NUM_ADDR_BITSS
-}
-_SUBSUMER_MAX_GENRS = {nab: (nab + 2**nab) for nab in _NUM_ADDR_BITSS}
+_NUM_OBS_SPACE_DIMSS = {nab: nab + (2**nab) for nab in _NUM_ADDR_BITSS}
 
 _NUM_TRIALS = 50
 
@@ -26,70 +23,73 @@ def main():
     # first, add computed cols for plotting to df
 
     # independent var.
-    f = np.vectorize(lambda lnp, mnab: lnp / _NUM_PHENOTYPE_VEC_DIMSS[mnab])
-    df["lsh_num_projs_normd"] = f(df.lsh_num_projs, df.mux_num_addr_bits)
+    f = np.vectorize(lambda ingd, mnab: ingd / _NUM_OBS_SPACE_DIMSS[mnab])
+    df["idx_num_grid_dims_normd"] = f(df.idx_num_grid_dims,
+                                      df.mux_num_addr_bits)
 
     # dependent vars.
-    df["sp_num_cells_normd"] = df["sp_num_cells"] / df["sp_num_phenotypes"]
-
-    f = np.vectorize(lambda sgm, mnab: sgm / _SUBSUMER_MAX_GENRS[mnab])
-    df["sp_subsumer_genr_mean_normd"] = f(df.sp_subsumer_genr_mean,
-                                          df.mux_num_addr_bits)
-
-    df["sp_num_match_ops_mean_normd"] = (df["sp_num_match_ops_mean"] /
-                                         df["vpop_num_phenotypes"])
+    df["idx_num_grid_refs_normd"] = df["idx_num_grid_refs"] / \
+        df["vpop_num_phenotypes"]
+    df["idx_cell_size_mean_normd"] = df["vpop_num_phenotypes"] / \
+        df["idx_cell_size_mean"]
 
     (fig, axs) = plt.subplots(nrows=_NROWS, ncols=_NCOLS, sharex=True)
 
-    _plot_num_cells_normd(axs[0][0], df)
-    _plot_subsumer_genr_normd(axs[0][1], df)
-    _plot_cell_size_logd(axs[1][0], df)
-    _plot_num_match_ops_normd(axs[1][1], df)
+    _plot_idx_num_grid_refs_normd(axs[0], df)
+    _plot_idx_cell_size_mean_normd(axs[1], df)
 
+    legend_handles = [
+        Line2D([0], [0], lw=1.5, color=color) for color in _COLORS.values()
+    ]
+    legend_labels = [f"{nosd}-MUX" for nosd in _NUM_OBS_SPACE_DIMSS.values()]
+    fig.legend(legend_handles,
+               legend_labels,
+               loc="center left",
+               bbox_to_anchor=(1, 0.5))
     fig.tight_layout()
 
     plt.savefig("mux_static_index_analysis_plots.pdf", bbox_inches="tight")
 
 
-def _plot_num_cells_normd(ax, df):
+def _plot_idx_num_grid_refs_normd(ax, df):
     _plot_dependent_var_on_ax(ax,
                               df,
-                              dependent_var_col_name="sp_num_cells_normd")
-    ax.set_ylabel("Num cells (normd)")
+                              dependent_var_col_name="idx_num_grid_refs_normd")
 
-
-def _plot_cell_size_logd(ax, df):
-    _plot_dependent_var_on_ax(ax,
-                              df,
-                              dependent_var_col_name="sp_cell_size_mean")
-    ax.set_xlabel("LSH num projs (normd)")
-    ax.set_ylabel("Cell size")
+    ax.set_xticks([0.1 * i for i in range(1, 10 + 1)])
     ax.set_yscale("log")
+    ax.set_ylim(bottom=10**0, top=(10**5 / 2))
+    ax.set_ylabel("Memory usage")
+    ax.grid()
 
 
-def _plot_subsumer_genr_normd(ax, df):
+def _plot_idx_cell_size_mean_normd(ax, df):
     _plot_dependent_var_on_ax(
-        ax, df, dependent_var_col_name="sp_subsumer_genr_mean_normd")
-    ax.set_ylabel("Subsumer genr (normd)")
+        ax, df, dependent_var_col_name="idx_cell_size_mean_normd")
 
-
-def _plot_num_match_ops_normd(ax, df):
-    _plot_dependent_var_on_ax(
-        ax, df, dependent_var_col_name="sp_num_match_ops_mean_normd")
-    ax.set_xlabel("LSH num projs (normd)")
-    ax.set_ylabel("Num match ops (normd)")
+    ax.set_xticks([0.1 * i for i in range(1, 10 + 1)])
+    ax.set_xlabel("k (normd)")
+    ax.set_yscale("log")
+    ax.set_ylim(bottom=10**0, top=(10**5 / 2))
+    ax.set_ylabel("Speedup")
+    ax.grid()
 
 
 def _plot_dependent_var_on_ax(ax, df, dependent_var_col_name):
     for nab in _NUM_ADDR_BITSS:
         sub_df = df.loc[df["mux_num_addr_bits"] == nab]
 
-        xs = list(sub_df.lsh_num_projs_normd.unique())
+        xs = list(sub_df.idx_num_grid_dims_normd.unique())
         ys = []
         for x in xs:
             # take a mean over all rows for the dependent var.
-            sub_sub_df = sub_df.loc[sub_df["lsh_num_projs_normd"] == x]
-            assert len(sub_sub_df) == _NUM_TRIALS
+            sub_sub_df = sub_df.loc[sub_df["idx_num_grid_dims_normd"] == x]
+
+            if x == 1.0:
+                assert len(sub_sub_df) == 1
+            else:
+                assert len(sub_sub_df) == _NUM_TRIALS
+
             ys.append(np.mean(sub_sub_df[dependent_var_col_name]))
 
         ax.plot(xs, ys, color=_COLORS[nab])
